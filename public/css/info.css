@@ -1,0 +1,25 @@
+.infoContainer{
+    background-color: #fff;
+    border: 1px solid #B3CBCE;
+    border-radius: 10px;
+    padding-bottom:30px;
+}
+.newsNote{
+    white-space: pre-line;
+}
+.newsDate{
+    margin-right: 30px;
+    /*margin-bottom: 15px;*/
+}
+@media (min-width: 1440px){
+    .infoUpContainer, .infoContainer{
+        width:1200px;
+        padding-right: 0;
+    }
+    .infoContainer{
+        margin-bottom:15px;
+    }
+}
+.infodiv{
+    padding: 0;
+}

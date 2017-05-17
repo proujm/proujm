@@ -1,0 +1,177 @@
+.statistic{
+    background-color: #fff;
+    width:850px;
+    height:700px;
+}
+.nullCategories, .nullHorisontalBanners, .nullComments{
+    color:#47687B;
+    text-align: center;
+    margin-bottom:50px;
+}
+.nullCategoriesTitle, .nullHorisontalBannersTitle, .nullCommentsTitle{
+    color:#47687B;
+    font-weight: bold;
+}
+.nullCategoriesText, .nullHorisontalBannersText, .nullCommentsText{
+    font-style: italic;
+}
+.adminTables{
+    font-family: 'Lato';
+    color: #777;
+}
+.adminTables .delete, .adminTables .edit{
+    width: 50px;
+}
+.tableTextCenter th, .tableTextCenter tbody td{
+    text-align: center;
+}
+.categoryEditTable .save, .categoryEditTable .cancel{
+    width: 50px;
+}
+.adminTableMinWidth{
+    width: 30px;
+}
+.vert-text{
+    -ms-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+
+    -ms-transform-origin: left top 0;
+    -moz-transform-origin: left top 0;
+    -webkit-transform-origin: left top 0;
+    transform-origin: left top 0;
+
+    margin-left: 30px;
+    padding: 0;
+    float: left;
+    height:80px;
+    width:5px;
+    white-space: nowrap;
+}
+.borderbottom{
+    border-bottom: 3px solid #59B0E3;
+}
+.actionButtons:hover{
+    color: #1C9AE3;
+    background-color:#FCFCFC;
+    border: 1px solid #1C9AE3;
+}
+.actionButtons{
+    color: #777;
+    background-color:#fff;
+    border: 1px solid #777;
+}
+.actionButtons:focus{
+    color: #777;
+    background-color:#fff;
+}
+/*-----------------------------------*/
+.funkyradio div {
+    clear: both;
+    overflow: hidden;
+}
+
+.funkyradio label {
+    width: 100%;
+    border-radius: 3px;
+    border: 1px solid #D1D3D4;
+    font-weight: normal;
+}
+
+.funkyradio input[type="radio"]:empty,
+.funkyradio input[type="checkbox"]:empty {
+    display: none;
+}
+
+.funkyradio input[type="radio"]:empty ~ label,
+.funkyradio input[type="checkbox"]:empty ~ label {
+    position: relative;
+    line-height: 2.5em;
+    text-indent: 3.25em;
+    margin-top: 2em;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.funkyradio input[type="radio"]:empty ~ label:before,
+.funkyradio input[type="checkbox"]:empty ~ label:before {
+    position: absolute;
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    content: '';
+    width: 2.5em;
+    background: #D1D3D4;
+    border-radius: 3px 0 0 3px;
+}
+
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label,
+.funkyradio input[type="checkbox"]:hover:not(:checked) ~ label {
+    color: #888;
+}
+
+.funkyradio input[type="radio"]:hover:not(:checked) ~ label:before,
+.funkyradio input[type="checkbox"]:hover:not(:checked) ~ label:before {
+    content: '\2714';
+    text-indent: .9em;
+    color: #C2C2C2;
+}
+
+.funkyradio input[type="radio"]:checked ~ label,
+.funkyradio input[type="checkbox"]:checked ~ label {
+    color: #777;
+}
+
+.funkyradio input[type="radio"]:checked ~ label:before,
+.funkyradio input[type="checkbox"]:checked ~ label:before {
+    content: '\2714';
+    text-indent: .9em;
+    color: #333;
+    background-color: #ccc;
+}
+
+.funkyradio input[type="radio"]:focus ~ label:before,
+.funkyradio input[type="checkbox"]:focus ~ label:before {
+    box-shadow: 0 0 0 3px #999;
+}
+
+.funkyradio-primary input[type="radio"]:checked ~ label:before,
+.funkyradio-primary input[type="checkbox"]:checked ~ label:before {
+    color: #fff;
+    background-color: #337ab7;
+}
+.funkyradio-primary{
+    margin: -27px 0 0 0;
+}
+/*---------------------------------*/
+.bannerImg{
+    width:100px;
+}
+.bannerNote, .commentTextEdit{
+    white-space: pre-line;
+}
+.adminBannerTable{
+    margin-top: 45px;
+}
+.bannerRecomend{
+    color: #777;
+    font-weight: bold;
+    font-style:italic;
+}
+.adminCommentsContainer, .adminCategoryContainer{
+    margin-top:50px;
+}
+.adminCommentTitle{
+    color: #777;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom:30px;
+}
+.caruselEditImg{
+    width: 200px;
+}

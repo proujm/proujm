@@ -1,0 +1,23 @@
+.allProducts{
+    background-color: #fff;
+    border: 1px solid #B3CBCE;
+    border-radius: 10px;
+    margin-bottom:15px;
+}
+.allProducts .blockImages{
+    margin: 30px 0 0 0;
+}
+.container .allProductsBanner{
+    margin: 0 -10px 0 -15px;
+    /*padding:0;*/
+}
+
+@media (min-width: 1440px){
+    .productsContainerUp{
+        width:1200px;
+        padding-right: 0;
+    }
+    .allProducts{
+        width:1200px;
+    }
+}

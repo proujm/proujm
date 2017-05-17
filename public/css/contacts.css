@@ -1,0 +1,14 @@
+.contactsContainer{
+    background-color: #fff;
+    border: 1px solid #B3CBCE;
+    border-radius: 10px;
+}
+@media (min-width: 1440px){
+    .contactsUpContainer, .contactsContainer{
+        width:1200px;
+        padding-right: 0;
+    }
+    .contactsContainer{
+        margin-bottom:15px;
+    }
+}

@@ -1,0 +1,34 @@
+.commercialHorisontalBanner{
+    border: 1px solid #B3CBCE;
+    background-color: #fff;
+    height:150px;
+    padding-right: 3px;
+    padding-left: 0;
+}
+.horisontalBannerDiv > div {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.horisontalBannerDiv{
+    margin-right: -108px;
+}
+.imgHorisontalBanner1, .imgHorisontalBanner2, .imgHorisontalBanner3{
+    width: 100%;
+    height: 150px;
+    margin-top:-1px;
+}
+.horizontalBannerUp{
+    height: 150px;
+}
+
+/*-------------------------------------------------------*/
+.commercialBanner{
+    width:266px;
+    margin: 5px -6px 0 6px;
+}
+.vertBannerImage{
+    margin-top: 18px;
+}
+.vertBannerTitle{
+    margin: 0 0 0 25px;
+}
